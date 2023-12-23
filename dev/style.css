@@ -461,6 +461,9 @@ a:hover {
   z-index: 1002;/* ensures the navbar is ontop of the other elements*/
 
 }
+#myNavbar {
+  transition: background-color 0.666s ease-in-out;
+}
 
 
 /* overrides bootsrap to ensure the text color is white */
