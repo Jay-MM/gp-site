@@ -517,6 +517,29 @@ iframe {
   margin-top:9rem !important;
   line-height: 1.5;
 }
+
+/* Customize the close button in the toast header */
+.toast-header .btn-close {
+  /* Move the close button to the right end of the header */
+  margin-left: auto;
+  /* Use smaller size */
+  padding: 0.25rem 0.5rem;
+}
+
+/* Customize the toast body */
+.toast-body {
+  /* Electric blue background color */
+  background-color: var(--electricBlue);
+  /* White text color */
+  color: var(--white);
+  /* Larger font size */
+  font-size: 1.25rem;
+}
+
+#errorToast .toast-body {
+  background-color: var(--rojoVivo) ;
+  color:var(--white);
+}
  
 footer ul {
   display: flex;
