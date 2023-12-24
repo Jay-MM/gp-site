@@ -1,3 +1,3 @@
 # GP Portfolio
 
-deployment so client can see progress
+This is an MVP for GP El Magico to showcase his talent as a Latino rapper
