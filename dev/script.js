@@ -72,7 +72,7 @@ document.querySelector('#contact .btn-primary').addEventListener('click', functi
     contactModal.hide();
   }
 
-  emailjs.sendForm('default_service', 'contact_form', contactForm)
+  emailjs.sendForm('default_', 'contact_form', contactForm) //change param to default_service
     .then(function (response) {
       if (response.status === 200) {
         handleResponse(response, successToast);
